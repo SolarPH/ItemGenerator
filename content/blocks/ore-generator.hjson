@@ -1,0 +1,48 @@
+name: Ore Generator
+description: A random ore generator. Generates vanilla ores.
+
+type: Separator
+
+// Separator properties
+craftTime: 600
+spinnerRadius: 0
+spinnerLength: 0
+spinnerThickness: 0
+spinnerSpeed: 0
+color: 000000
+
+results: [
+	copper/1
+	lead/1
+	titanium/1
+	thorium/1
+	coal/2
+	scrap/4
+]
+
+consumes: {
+	items: {
+		items: [
+			
+		]
+	}
+	power: {
+		usage: 0.3
+		capacity: 10
+	}
+}
+
+hasPower: true
+hasLiquid: false
+hasItems: true
+
+size: 1
+requirements: [
+	copper/12
+	lead/12
+	titanium/12
+	thorium/12
+]
+category: effect
+
+research: separator

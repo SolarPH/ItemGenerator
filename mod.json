@@ -1,0 +1,7 @@
+{
+	"name": "Ore Generator Mod",
+	"author": "SolarPH",
+	"description": "An Ore Generation Block. Consumes power to dispense items every 10 seconds",
+	"version": "1.1.1.1",
+	"dependencies": []
+}
