@@ -1,10 +1,10 @@
-name: Ore Generator
-description: A random ore generator. Generates vanilla ores.
+name: Item Generator
+description: A random item generator. Generates vanilla materials and resources.
 
 type: Separator
 
 // Separator properties
-craftTime: 600
+craftTime: 60
 spinnerRadius: 0
 spinnerLength: 0
 spinnerThickness: 0
@@ -12,12 +12,22 @@ spinnerSpeed: 0
 color: 000000
 
 results: [
-	copper/1
-	lead/1
-	titanium/1
+	copper/10
+	lead/10
+	metaglass/2
+	graphite/2
+	sand/40
+	coal/5
+	titanium/2
 	thorium/1
-	coal/2
-	scrap/4
+	scrap/20
+	silicon/2
+	plastanium/1
+	phase-fabric/1
+	surge-alloy/1
+	spore-pod/1
+	blast-compound/1
+	pyratite/1
 ]
 
 consumes: {
@@ -39,9 +49,7 @@ hasItems: true
 size: 1
 requirements: [
 	copper/12
-	lead/12
-	titanium/12
-	thorium/12
+	graphite/12
 ]
 category: effect
 
